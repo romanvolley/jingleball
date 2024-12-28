@@ -120,7 +120,14 @@ const CardGame = () => {
     <div className="p-4 max-w-6xl mx-auto">
       <Card className="mb-6">
         <CardHeader>
-          <h1 className="text-2xl font-bold">Card Game</h1>
+          <div className="flex items-center gap-4">
+            <img 
+              src="/api/placeholder/50/50?text=CG" 
+              alt="Card Game Logo" 
+              className="rounded-full shadow-md"
+            />
+            <h1 className="text-2xl font-bold">Card Game</h1>
+          </div>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
